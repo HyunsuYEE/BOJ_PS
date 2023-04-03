@@ -12,7 +12,7 @@ def recursion_permutation(list, Len):
             dup_list.remove(keep)
             recursion = recursion_permutation(dup_list, Len - 1)
             for p in recursion:
-                result.append([keep] + p)
+                result.append([keep] + p) # merge them into Ns list
     return result
 
 
