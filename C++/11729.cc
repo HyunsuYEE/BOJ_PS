@@ -6,7 +6,6 @@ void moveTo(int first, int middle, int last, int n, int *count, vector<string> *
 {
     if (n == 1)
     {
-
         return;
     }
     else if (n == 2)
