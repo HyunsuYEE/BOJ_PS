@@ -1,4 +1,4 @@
-// 5397
+// 5397 - linked list
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,7 +8,7 @@ int main()
     cin.tie(0);
     size_t i;
     cin >> i;
-    list<list<char>> box;
+    list<list<char> > box;
     while (i--)
     {
         string s;
